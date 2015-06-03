@@ -1,0 +1,115 @@
+
+
+#intro {
+    /*
+        Se basa en su contenedor para adoptar la posicion actual.
+    */
+    position: relative;
+    margin-top: 66px;
+    padding: 44px;
+    background: #467612 url("img/intro_background.png") repeat-x;
+    
+    /* Background-size not implemented yet */
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+
+    
+    /* Border-radius not implemented yet */
+    -moz-border-radius: 22px;
+    -webkit-border-radius: 22px;
+}
+
+#intro img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 653px;
+        height: 100%;
+    
+        /* Border-radius not implemented yet */
+        -moz-border-radius: 22px;
+        -webkit-border-radius: 22px;
+}
+
+    #intro h2, #intro p {
+        position: relative;
+        /*
+        z-index es usado para que la imagen siempre
+        este por encima de los elementos.
+         de acuerdo con el numero que se le de
+        */
+        z-index: 9999;
+        width: 336px;
+    }
+    
+    #intro h2 {
+        padding: 0 0 22px 0;
+        font-weight: normal;
+        color: #fff;
+    }
+    
+    #intro p {
+        padding: 0;
+        color: #d9f499;
+    }
+    footer {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: #222;
+}
+
+    footer div {
+        display: table;
+        margin: 0 auto;
+        padding: 44px 0;
+        width: 940px;
+        color: #777;
+    }
+    
+        footer div section {
+            display: table-cell;
+            width: 300px;
+        }
+        
+        footer div #about, footer div #blogroll {
+            padding-right: 20px;
+        }
+        
+    footer h3 {
+        color: #FFF;
+    }
+    
+    footer a {
+        color: #999;
+    }
+    
+        footer a:hover {
+            color: #FFF;
+            text-decoration: none;
+        }
+    
+    footer ul {
+        margin: 0 0 0 40px;
+        list-style: square;
+        color: #565656;
+    }
+    
+        footer ul li a {
+            display: block;
+        }
+
+
+    .rightBar   {
+        width: 100%;
+        margin-left: 0px;   
+        padding-left: 0px;   
+    }
+
+    .rightBar  ul{
+        padding-left: 0px; 
+        margin-left: 0px;   
+    } 
+
+
